@@ -1,4 +1,25 @@
 body {
     background-color: #26ca3e;
     color: rgb(231, 255, 19);
+    text-align: center;
+    font-size: 130%;
+
+}
+.cabecalho.imagem body {
+    width: 555%;
+}
+.cabecalho {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    pad: 30px 0;
+    text-align: center;
+}
+.cabecalho-lista-item {
+    display: inline-block;
+    margin: 0px;
+    padding: 10px;
+    font-size: 25px;
 }
