@@ -5,9 +5,12 @@ body {
     font-size: 130%;
 
 }
+
 .cabecalho.imagem body {
     width: 555%;
+
 }
+
 .cabecalho {
     background-color: black;
     color: aliceblue;
@@ -16,10 +19,20 @@ body {
     align-items: center;
     pad: 30px 0;
     text-align: center;
+
 }
+
 .cabecalho-lista-item {
     display: inline-block;
     margin: 0px;
     padding: 10px;
     font-size: 25px;
+
 }
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
